@@ -21,7 +21,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <nav className="flex items-center justify-between py-4">
+    <nav className="flex items-center justify-between py-4 border-b border-zinc-200">
       <div className="w-2/6 brandName">
         <Link to="/" className="text-xl font-bold">
           TCM Blogger
